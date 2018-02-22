@@ -1,0 +1,11 @@
+.character-card-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 95%;
+    margin: 23px 20px;
+    max-width: 350px;
+
+}

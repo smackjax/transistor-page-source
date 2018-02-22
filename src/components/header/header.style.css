@@ -1,0 +1,33 @@
+.main-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 1px 4px 0px rgba(0,0,0,.2);
+    z-index: 100;
+    background-color: rgba(255,255,255,.98);
+}
+.main-header .content-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+
+    height: 80px;
+}
+
+/* LOGO */
+.main-header .logo-wrapper{
+    height: 100%;
+}
+.main-header .logo-img {
+    max-width: auto;
+    height: 100%;
+}
+

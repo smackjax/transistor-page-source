@@ -1,0 +1,17 @@
+.contact-submit-btn {
+    width: 94%;
+    max-width: 180px;
+    padding: 8px 4px;
+    margin: 15px auto;
+    background-color: rgba(52, 152, 125, 1);;
+    color: #eee;
+}
+.contact-submit-btn i {
+    margin-right: 5px;
+}
+
+.contact-submit-btn:disabled {
+    background-color: rgba(220,220,220,.8);
+    color: #222;
+    cursor: initial;
+}

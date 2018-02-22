@@ -1,0 +1,31 @@
+.block-with-text {
+    display: flex;
+    padding: 30px;
+}
+.inner-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.description-container {
+    min-width: 280px;
+    width: 99%;
+    max-width: 500px;
+    margin: 0 5px;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 50px;
+}
+.img-container .transistor-logo {
+    width: 200px;
+    height: auto;
+    margin: auto;
+}

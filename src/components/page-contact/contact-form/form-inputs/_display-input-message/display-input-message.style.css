@@ -1,0 +1,20 @@
+.contact-input-wrapper {
+    margin: 10px auto;
+}
+
+.input-message-wrapper {
+    margin-top: 3px;
+    padding-left: 5px;
+}
+
+.input-message-wrapper i {
+    margin-right: 5px;
+}
+
+.input-message-wrapper .text-good {
+    color: rgb(2, 71, 28);
+}
+
+.input-message-wrapper .text-bad {
+    color: rgb(102, 0, 0);
+}

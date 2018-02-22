@@ -1,0 +1,11 @@
+.contact-input-wrapper {
+    width: 98%;
+    max-width: 230px;
+}
+.contact-input-wrapper label{
+    color: rgb(12, 24, 21);
+}
+.contact-input-wrapper label i {
+    margin-right:5px;
+    color: rgb(3, 116, 87);
+}

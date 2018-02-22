@@ -1,0 +1,16 @@
+.art-of-reds-face {
+    width: 95%;
+    padding: 15px;
+    max-width: 140px;
+    
+    background-color: #ddd;
+    margin: 20px auto 20px;
+    border-radius: 5px;
+}
+
+.art-of-reds-face img{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+}
+

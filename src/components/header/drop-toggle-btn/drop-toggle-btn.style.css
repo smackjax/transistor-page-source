@@ -1,0 +1,45 @@
+.drop-toggle-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: padding .3s;
+    padding: 5px;
+    margin-right: 20px;
+    background-color: rgb(116,8,6);
+    border-radius: 2px;
+}
+.drop-toggle-btn .btn-bar {
+    display: flex;
+    border: 1px solid rgb(240,240,240);
+    background-color: rgb(240,240,240);
+    margin: 2px 0;
+    height: 2px;
+    width: 23px;
+    transition: transform .3s, border-color .3s;
+    
+    transform-origin: 0;
+}
+.drop-toggle-btn.open{
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+.drop-toggle-btn.open .btn-bar:first-child{
+    transform: rotateZ(45deg);
+    width: 17px;
+}
+.drop-toggle-btn.open .btn-bar.hide-me {
+    background-color: rgba(240,240,240,0);
+    border-color: rgba(240,240,240,0);
+}
+.drop-toggle-btn.open .btn-bar:last-child {
+    transform: rotateZ(-45deg);
+    width: 17px;
+}
+
+@media(min-width: 450px){
+    .drop-toggle-btn {
+        display: none;
+    }
+    
+}

@@ -1,0 +1,22 @@
+.saved-info-wrapper{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(3, 116, 87);
+    
+}
+
+.saved-info-wrapper.title {
+    text-decoration: underline;
+}
+
+
+.value-list {
+    margin-top: 15px;
+    
+    font-size: 19px;
+}
+
+.value-list li {
+    margin: 7px;
+}

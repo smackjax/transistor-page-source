@@ -1,0 +1,33 @@
+.nav-dropdown {
+    transition: height .1s ease-out;
+    /* Pushes menu to bottom */
+    position: fixed;
+    bottom: 0;
+    height: 0%;
+    width: 100%;
+    top: 80px;
+    background-color: #eee;
+    overflow: hidden;
+}
+
+.nav-dropdown .nav-link {
+    display: block;
+    text-align: left;
+    padding: 8px 10px;
+    margin: 4px 0;
+    font-size: 20px;
+    text-decoration: none;
+    width: 100%;
+    background-color: rgba(255,255,255,.9);
+}
+
+
+.nav-dropdown.open {
+    height: calc(100% - 80px);
+    background-color: #eee;
+}
+@media( min-width: 450px ){
+    .nav-dropdown{
+        display: none;
+    }
+}

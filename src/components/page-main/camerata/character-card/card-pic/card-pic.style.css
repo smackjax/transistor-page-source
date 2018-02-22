@@ -1,0 +1,23 @@
+.character-card-pic-wrapper { 
+    width: 50%;
+    height: auto;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 250px;
+    max-height: 250px;
+
+    border-radius: 5px;
+    overflow: hidden; 
+    margin: 20px auto; 
+    box-shadow: 0 1px 6px 1px rgba(0,0,0,.4);
+}
+
+.character-card-pic-wrapper img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.character-card-pic {
+
+}

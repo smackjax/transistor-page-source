@@ -1,0 +1,6 @@
+/* pushes pages below header */
+.page {
+    padding-top: 80px;
+    /* forces footer to bottom */
+    min-height: 100vh;
+}

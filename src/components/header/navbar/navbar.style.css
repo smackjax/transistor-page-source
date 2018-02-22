@@ -1,0 +1,25 @@
+/* Nav */
+.main-nav {
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 250px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.main-nav .nav-link {
+
+}
+
+.main-nav .nav-link i{
+    margin-right: 7px;
+}
+
+@media (min-width: 450px){
+    .main-nav {
+        display: flex;
+    }
+}
