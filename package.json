@@ -2,6 +2,7 @@
   "name": "octogon-page",
   "version": "0.1.0",
   "private": true,
+  "proxy" : "http://localhost:80/",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "jquery": "^3.3.1",

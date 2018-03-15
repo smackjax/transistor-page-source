@@ -12,6 +12,14 @@ import './contact-form.style.css';
 
 class ContactForm extends React.Component{
     
+    componentDidMount(){
+        // fetch('/api/saveData/api/saveData')
+        // .then(response=>response.json())
+        // .then(result=>{
+        //     console.log("Result", result);
+        // })
+    }
+
     state={
         validInputs: [],
         sending: false,
@@ -34,6 +42,8 @@ class ContactForm extends React.Component{
         }
     }
     saveInfo=(e)=>{
+
+
         e.preventDefault();
         this.setState({
             sending: true

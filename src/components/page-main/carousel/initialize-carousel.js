@@ -33,6 +33,10 @@ const InitializeCarouselOnLoad = (WrappedComponent) =>(
                         items:3,
                         nav:true
                     },
+                    800:{
+                        items:5,
+                        nav:true
+                    },
                     1000:{
                         items:7,
                         nav:true,

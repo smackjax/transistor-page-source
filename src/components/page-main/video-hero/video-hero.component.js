@@ -1,6 +1,7 @@
 import React from 'react';
 import "./video-hero.style.css";
 
+// autoplay=1&
 const parameters = `
 autoplay=1&
 mute=1&
